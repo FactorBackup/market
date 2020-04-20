@@ -75,8 +75,8 @@ export class AccountPage implements AfterViewInit {
   support() {
     this.router.navigateByUrl('/support');
   }
-  goproduct() {
-    this.router.navigate(['/product']);
+  goregister() {
+    this.router.navigate(['/register']);
   }
   godetail() {
     this.router.navigate(['/detail']);

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1027414247965",
+    "firebase_url": "https://factor-market.firebaseio.com",
+    "project_id": "factor-market",
+    "storage_bucket": "factor-market.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027414247965:android:97fa17c72ff88776c314f4",
+        "android_client_info": {
+          "package_name": "com.factor.market"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027414247965-ahc8fkudugl5drjq1oi2b7bsgqm5gs0e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABG_s_0KYQEPlSTPEUqSuc_96mvc9TxvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027414247965-ahc8fkudugl5drjq1oi2b7bsgqm5gs0e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

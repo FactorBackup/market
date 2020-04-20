@@ -84,6 +84,18 @@ const routes: Routes = [
   {
     path: 'fraud',
     loadChildren: () => import('./fraud/fraud.module').then( m => m.FraudPageModule)
+  },
+  {
+    path: 'auth',
+    loadChildren: () => import('./auth/auth.module').then( m => m.AuthPageModule)
+  },
+  {
+    path: 'dapp',
+    loadChildren: () => import('./dapp/dapp.module').then( m => m.DappPageModule)
+  },
+  {
+    path: 'signup',
+    loadChildren: () => import('./signup/signup.module').then( m => m.SignupPageModule)
   }
 ]; 
 
