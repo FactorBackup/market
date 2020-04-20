@@ -1,0 +1,31 @@
+<ion-header no-border>
+  <ion-toolbar>
+    
+    <ion-title class="title">판매등록</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-label>카테고리선택</ion-label>
+    <ion-select value="brown" okText="Okay" cancelText="Cancle">
+      <ion-select-option value="brown">남성의류</ion-select-option>
+      <ion-select-option value="blonde">여성의류</ion-select-option>
+      <ion-select-option value="black">뷰티미용</ion-select-option>
+      <ion-select-option value="red">중고차/오토바이</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>상품명<ion-input></ion-input></ion-item>
+  <ion-item><ion-input>판매가격</ion-input></ion-item>
+  <ion-item><ion-input>제품설명</ion-input></ion-item>
+  <ion-item><ion-label>결제수단</ion-label>
+    <ion-select value="brown" okText="Okay" cancelText="Cancle">
+      <ion-select-option>계좌이체</ion-select-option>
+      <ion-select-option>신용카드</ion-select-option>
+      <ion-select-option>무통장입금</ion-select-option>
+
+    </ion-select></ion-item>
+    <ion-item>제품사진<ion-button class="button" slot="end"><ion-icon  name="add-circle-outline" color="white"></ion-icon></ion-button></ion-item>
+
+<ion-footer><ion-button (click)="goregister()">등록하기</ion-button></ion-footer>    
+</ion-content>

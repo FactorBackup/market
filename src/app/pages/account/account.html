@@ -3,13 +3,14 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>내상점</ion-title>
+    <ion-title>내상점</ion-title> 
+    <ion-icon slot="end" color="black" name="add-outline" (click)="goproduct()"></ion-icon>
     <img
       src="https://www.gravatar.com/avatar?d=mm&s=30"
       alt="avatar"
       slot="end"
-      style="margin-right: 10px;"
     />
+   
   </ion-toolbar>
 </ion-header>
 
@@ -33,7 +34,8 @@
     <ion-grid>
       <ion-row>
         <ion-col>
-          0
+          <ion-button (click)="godetail()">4</ion-button>
+          
           <br />
           상품
         </ion-col>

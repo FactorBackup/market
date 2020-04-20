@@ -4,8 +4,8 @@ import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
 
 import { UserData } from '../../providers/user-data';
-
-
+import { ProductPage } from '../../product/product.page'
+import { NavController } from '@ionic/angular';
 @Component({
   selector: 'page-account',
   templateUrl: 'account.html',
@@ -17,7 +17,8 @@ export class AccountPage implements AfterViewInit {
   constructor(
     public alertCtrl: AlertController,
     public router: Router,
-    public userData: UserData
+    public userData: UserData,
+    public navCtrl: NavController
   ) { }
 
   ngAfterViewInit() {
@@ -74,4 +75,11 @@ export class AccountPage implements AfterViewInit {
   support() {
     this.router.navigateByUrl('/support');
   }
+  goproduct() {
+    this.router.navigate(['/product']);
+  }
+  godetail() {
+    this.router.navigate(['/detail']);
+  }
 }
+

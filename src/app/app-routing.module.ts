@@ -56,6 +56,34 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () => import('./home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'product',
+    loadChildren: () => import('./product/product.module').then( m => m.ProductPageModule)
+  },
+  {
+    path: 'register',
+    loadChildren: () => import('./register/register.module').then( m => m.RegisterPageModule)
+  },
+  {
+    path: 'finger',
+    loadChildren: () => import('./finger/finger.module').then( m => m.FingerPageModule)
+  },
+  {
+    path: 'eye',
+    loadChildren: () => import('./eye/eye.module').then( m => m.EyePageModule)
+  },
+  {
+    path: 'face',
+    loadChildren: () => import('./face/face.module').then( m => m.FacePageModule)
+  },
+  {
+    path: 'detail',
+    loadChildren: () => import('./detail/detail.module').then( m => m.DetailPageModule)
+  },
+  {
+    path: 'fraud',
+    loadChildren: () => import('./fraud/fraud.module').then( m => m.FraudPageModule)
   }
 ]; 
 
