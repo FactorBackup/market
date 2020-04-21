@@ -1,14 +1,12 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>auth</ion-title>
-  </ion-toolbar>
-</ion-header>
+
 
 <ion-content>
-<ion-input placeholder="Enter ID"></ion-input>
-<ion-input placeholder="Enter password"></ion-input>
-<ion-button expand="full" (click)="home()">log in</ion-button>
-<ion-button class="social">google</ion-button>
-<ion-button class="social">facebook</ion-button>
+    <ion-img class="logo" src="assets/logo.png"></ion-img>
+  <ion-input class="input" placeholder="Enter ID"></ion-input>
+  <ion-input placeholder="Enter password"></ion-input>
+  <ion-button expand="full" (click)="home()" color="light">로그인</ion-button>
+  <ion-button color="light" size="default" expand="block" (click)="signup()">가입하기</ion-button>
+  <ion-button class="social" color="danger">google</ion-button>
+  <ion-button class="social">facebook</ion-button>
+  
 </ion-content>
-

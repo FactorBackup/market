@@ -16,7 +16,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
-
+import { AuthPageModule } from './auth/auth.module'
 @NgModule({
   imports: [
     BrowserModule,
@@ -27,11 +27,12 @@ import { AngularFireAuthModule } from '@angular/fire/auth';
     IonicStorageModule.forRoot(),
     AngularFireModule.initializeApp(environment.firebaseConfig),
     AngularFireAuthModule,
-
+    AuthPageModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production
     })
   ],
+  
   declarations: [AppComponent],
   providers: [InAppBrowser, SplashScreen, StatusBar],
   bootstrap: [AppComponent]
